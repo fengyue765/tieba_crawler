@@ -88,7 +88,7 @@ redis-task.py
 打开多个命令行终端（或多台机器/多容器），**可并发启动多个进程**：
 
 ```bash
-python baidu_tieba_crawler_distributed_redis.py
+python tieba-spidering.py
 ```
 
 每个进程会自动从Redis领取任务，互不冲突。
